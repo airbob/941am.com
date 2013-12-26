@@ -1,0 +1,26 @@
+body{
+  
+  background-image: url(../images/shattered.png);
+  background-repeat:repeat;  
+}
+.timeline .head {
+    width: 120px;
+    height: 120px;
+    border-radius: 80px;
+    border: 5px solid #34495e;
+    font-size: 2em;
+    color: white;
+    text-align: center;
+    background: #2c3e50;
+    clear: both;
+	margin: 0 auto 10px;
+	line-height: 100px;
+}
+.container .text-muted {
+  text-align: center;
+  margin-top: 10px;
+}
+#footer{
+  background-color: #f8f8f8;
+  border-color: #e7e7e7;
+}
