@@ -39,3 +39,53 @@ body{
 .back-to-top:hover {    
     background-color: rgba(135, 135, 135, 0.50);
 }
+
+.entry.gridyear {
+  font-size: 80px;
+  line-height: 180px;
+  text-align: center;
+}
+
+/* Flexbox is used for centering the heading */
+.entry a .description {
+    position: absolute;
+    left: 20px;
+    top: 5px;
+    right: 20px;
+    bottom: 25px;
+    background: rgba(0,0,0,0.5);
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: flex;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+    text-align: center;
+    opacity: 0;
+}
+ 
+.entry  a:hover .description {
+    opacity: 1;
+}
+ 
+.entry a h3 {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    color: #fff;
+    font-size: 1.2em;
+    padding: 0 10px;
+}
+
+.entry a p {
+    position: absolute;
+    top: 10px;
+    width: 100%;
+    color: #fff;
+    font-size: 1.0em;
+    padding: 0 10px;
+}
+ 
+
