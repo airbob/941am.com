@@ -185,6 +185,108 @@ var app = new Vue({
             ]
         }, //end of 2018
         {
+            'year': '2017',
+            'events': [{
+                'id': '20171214',
+                'caption': {
+                    'title': 'iMac Pro (27") (Late 2017)',
+                    'day': '14',
+                    'month': 'Dec'
+                },
+                'detail': {
+                    'head': {
+                        'image': 'imac_pro_late_2017.jpg',
+                        'title': 'iMac Pro (27") (Late 2017)'
+                    }
+                }
+            }, 
+            {
+                'id': '20171103',
+                'caption': {
+                    'title': 'iPhone X',
+                    'day': '03',
+                    'month': 'Nov',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'iphonex.jpg',
+                        'title': 'iPhone X'
+                    }
+                }
+            },
+            {
+                'id': '20170922',
+                'caption': {
+                    'title': 'iPhone 8',
+                    'day': '22',
+                    'month': 'Sep',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'iphone8.jpg',
+                        'title': 'iPhone 8'
+                    },
+                    'rest': [{
+                        'image': 'iphone8_plus.png',
+                        'title': 'iPhone 8 Plus'
+                    }, {
+                        'image': 'apple_watch_3.jpg',
+                        'title': 'Apple Watch Series 3'
+                    }, {
+                        'image': 'apple_tv_5.png',
+                        'title': 'Apple TV 4K (5th generation)'
+                    }]
+                }
+            },
+            {
+                'id': '20170605',
+                'caption': {
+                    'title': 'WWDC 2017',
+                    'day': '05',
+                    'month': 'Jun',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'wwdc_2017.jpg',
+                        'title': 'WWDC 2017'
+                    },
+                    'rest': [{
+                        'image': 'ipad_pro_2.png',
+                        'title': 'iPad Pro (12.9") (2nd Gen)'
+                    }]
+                }
+            },
+            {
+                'id': '20170324',
+                'caption': {
+                    'title': 'iPad (2017)',
+                    'day': '24',
+                    'month': 'Mar',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'ipad_2017.jpg',
+                        'title': 'iPad (2017)'
+                    }
+                }
+            },
+            {
+                'id': '20170321',
+                'caption': {
+                    'title': 'iPhone SE',
+                    'day': '21',
+                    'month': 'Mar',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'iphone_se.png',
+                        'title': 'iPhone SE'
+                    }
+                }
+            }
+            ]
+        }, //end of 2017
+        {
             'year': '2014',
             'events': [{
                 'id': '20140602',
