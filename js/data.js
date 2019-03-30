@@ -287,6 +287,112 @@ var app = new Vue({
             ]
         }, //end of 2017
         {
+            'year': '2016',
+            'events': [{
+                'id': '20161219',
+                'caption': {
+                    'title': 'Apple AirPods',
+                    'day': '19',
+                    'month': 'Dec'
+                },
+                'detail': {
+                    'head': {
+                        'image': 'airpods.jpg',
+                        'title': 'Apple AirPods'
+                    }
+                }
+            }, 
+            {
+                'id': '20161028',
+                'caption': {
+                    'title': 'Apple Watch Nike+ Series 2',
+                    'day': '28',
+                    'month': 'Oct',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_watch_nike_2.jpg',
+                        'title': 'Apple Watch Nike+ Series 2'
+                    }
+                }
+            },
+            {
+                'id': '20161027',
+                'caption': {
+                    'title': 'MacBook Pro (4th gen)',
+                    'day': '20',
+                    'month': 'Oct',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'macbook_pro_4.jpg',
+                        'title': 'MacBook Pro (4th gen)'
+                    }
+                }
+            },
+            {
+                'id': '20160916',
+                'caption': {
+                    'title': 'iPhone 7',
+                    'day': '16',
+                    'month': 'Sep',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'iphone7_1.png',
+                        'title': 'iPhone 7'
+                    },
+                    'rest': [{
+                        'image': 'iphone7_2.jpg',
+                        'title': 'iPhone 7'
+                    }]
+                }
+            },
+            {
+                'id': '20160907',
+                'caption': {
+                    'title': 'iPad Air 2',
+                    'day': '07',
+                    'month': 'Sep',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'ipad_air_2.png',
+                        'title': 'iPad Air 2'
+                    }
+                }
+            },
+            {
+                'id': '20160419',
+                'caption': {
+                    'title': 'MacBook (Early 2016)',
+                    'day': '19',
+                    'month': 'Apr',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'macbook_2016.jpg',
+                        'title': 'MacBook (Early 2016)'
+                    }
+                }
+            },
+            {
+                'id': '20160331',
+                'caption': {
+                    'title': 'iPad Pro (9.7")',
+                    'day': '31',
+                    'month': 'Mar',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'ipad_pro_97.jpg',
+                        'title': 'iPad Pro (9.7")'
+                    }
+                }
+            }
+            ]
+        }, //end of 2016
+        {
             'year': '2014',
             'events': [{
                 'id': '20140602',
