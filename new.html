@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="apple product timeline">
+      <meta name="author" content="chenbo:air.chenbo@gmail.com">
+      <title>Apple Products Timeline</title>
+      <!-- Bootstrap core CSS -->
+      <link href="css/bootstrap.css" rel="stylesheet">
+      <!-- Custom styles for this template -->
+      <link href="css/timeline.css" rel="stylesheet">
+      <link rel="stylesheet" href="css/lightbox.css">
+      <link rel="stylesheet" type="text/css" href="source/jquery.fancybox.css?v=2.1.5" media="screen" />
+      <link href='http://fonts.googleapis.com/css?family=Exo+2' rel='stylesheet' type='text/css'>
+      <link rel="stylesheet" href="css/custom.css">
+      <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+      <script src="js/vue.js"></script>
+      <script>
+         (adsbygoogle = window.adsbygoogle || []).push({
+              google_ad_client: "ca-pub-1312390534229992",
+              enable_page_level_ads: true
+         });
+      </script>
+      <!-- Just for debugging purposes. Don't actually copy this line! -->
+      <!--[if lt IE 9]><script src="../../docs-assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+      <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+      <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+      <![endif]-->
+   </head>
+   <body>
+      <!-- Static navbar -->
+      <div class="navbar navbar-default navbar-static-top" role="navigation">
+         <div class="container">
+            <div class="navbar-header">
+               <a class="navbar-brand" href="./index.html">Apple's products timeline</a>
+            </div>
+            <div class="navbar-collapse collapse">
+               <ul class="nav navbar-nav">
+                  <li class="active"><a href="#">Home</a>
+                  </li>
+                  <li class="dropdown">
+                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">By Year <b class="caret"></b></a>
+                     <ul class="dropdown-menu">
+                        <li><a href="#2014">2014</a>
+                        </li>
+                        <li><a href="#2013">2013</a>
+                        </li>
+                        <li><a href="#2012">2012</a>
+                        </li>
+                        <li><a href="#2011">2011</a>
+                        </li>
+                        <li><a href="#2010">2010</a>
+                        </li>
+                        <li><a href="#2009">2009</a>
+                        </li>
+                        <li><a href="#2008">2008</a>
+                        </li>
+                        <li><a href="#2007">2007</a>
+                        </li>
+                        <li><a href="#2006">2006</a>
+                        </li>
+                        <li><a href="#2005">2005</a>
+                        </li>
+                        <li><a href="#2004">2004</a>
+                        </li>
+                        <li><a href="#2003">2003</a>
+                        </li>
+                        <li><a href="#2002">2002</a>
+                        </li>
+                        <li><a href="#2001">2001</a>
+                        </li>
+                        <li><a href="#2000">2000</a>
+                        </li>
+                        <li><a href="#1999">1999</a>
+                        </li>
+                        <li><a href="#1998">1998</a>
+                        </li>
+                        <li><a href="#1997">1997</a>
+                        </li>
+                        <li><a href="#1996">1996</a>
+                        </li>
+                        <li><a href="#1995">1995</a>
+                        </li>
+                        <li><a href="#1994">1994</a>
+                        </li>
+                        <li><a href="#1993">1993</a>
+                        </li>
+                        <li><a href="#1992">1992</a>
+                        </li>
+                        <li><a href="#1991">1991</a>
+                        </li>
+                        <li><a href="#1990">1990</a>
+                        </li>
+                        <li><a href="#1989">1989</a>
+                        </li>
+                        <li><a href="#1988">1988</a>
+                        </li>
+                        <li><a href="#1987">1987</a>
+                        </li>
+                        <li><a href="#1986">1986</a>
+                        </li>
+                        <li><a href="#1985">1985</a>
+                        </li>
+                        <li><a href="#1984">1984</a>
+                        </li>
+                        <li><a href="#1983">1983</a>
+                        </li>
+                        <li><a href="#1982">1982</a>
+                        </li>
+                        <li><a href="#1981">1981</a>
+                        </li>
+                        <li><a href="#1980">1980</a>
+                        </li>
+                        <li><a href="#1979">1979</a>
+                        </li>
+                        <li><a href="#1978">1978</a>
+                        </li>
+                        <li><a href="#1977">1977</a>
+                        </li>
+                        <li><a href="#1976">1976</a>
+                        </li>
+                     </ul>
+                  </li>
+               </ul>
+               <ul class="nav navbar-nav navbar-right">
+                  <li class="active"><a href="./index.html"><span class="glyphicon glyphicon-list"> </span> List</a>
+                  </li>
+                  <li><a href="./grid.html"><span class="glyphicon glyphicon-th"> </span> Grid</a>
+                  </li>
+               </ul>
+            </div>
+            <!--/.nav-collapse -->
+         </div>
+      </div>
+      <div class="container"  id="app">
+         <!-- section -->
+         <section role="main">
+            <ul class="timeline">
+               <li class="head">9:41am</li>
+               <li></li>
+               <span v-for="list in lists">
+                <li class="year" v-bind:id="list.year"> {{ list.year }}</li>
+                <li class="event" v-for="event in list.events">
+                  <figure>
+                     <figcaption>
+                        <p class="publish-date"><span class="day">{{ event.caption.day }}</span><span class="month">{{ event.caption.month }}</span>
+                        </p>
+                        <h2 v-if="event.caption.isVideo">
+                          <a class="video"  v-bind:href="event.caption.link"><span class="glyphicon glyphicon-film"> </span></a>
+                          {{ event.caption.title }}
+                        <h2 v-else>{{ event.caption.title }}</h2>
+                     </figcaption>
+                  </figure>
+                  <div class="image-set">
+                     <a v-bind:href="'images/' + event.detail.head.image" v-bind:data-lightbox="event.id" v-bind:title="event.detail.head.image">
+                     <img src="img/loader.gif" v-bind:data-src="'images/' + event.detail.head.image"/>
+                     </a>
+                     <div style="display:none;" v-for="r in event.detail.rest">
+                        <a v-bind:href="'images/' + r.image" v-bind:data-lightbox="event.id" v-bind:title="r.title"></a>
+                     </div>
+                  </div>
+               </li>
+               </span>
+               
+            </ul>
+            <a href="#" class="back-to-top"><span class="glyphicon glyphicon-arrow-up"> </span></a>
+         </section>
+         <!-- /section -->
+      </div>
+      <!-- /container -->
+      <div id="footer">
+         <div class="container">
+            <p class="text-muted">
+               <span class="glyphicon glyphicon-copyright-mark"> </span> 2013
+               <a href="mailto:air.chenbo@gmail.com"><span class="glyphicon glyphicon-inbox"> </span> Email</a>
+               <!-- Button trigger modal -->
+               <span class="btn" data-toggle="modal" data-target="#myModal">
+               <span class="glyphicon glyphicon-file"> </span> disclaim
+               </span>
+            <div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+               <div class="modal-dialog">
+                  <div class="modal-content">
+                     <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
+                        <h4 class="modal-title" id="myModalLabel">Disclaimer</h4>
+                     </div>
+                     <div class="modal-body">
+                        <p>All the information in this site are from internet, if any material displayed violates your rights, <a href="mailto:air.chenbo@gmail.com">drop us a note </a>and it will be deleted accordingly.</p>
+                        <p>This site is served as an archive for all Apple products, every udpate since Apple history begins</p>
+                        <hr>
+                        <h4>Thanks</h4>
+                        <p>thanks to these below projects to help build this site</a>
+                        <p><a href="http://getbootstrap.com/">BootStrap</a>
+                        </p>
+                        <p><a href="http://lokeshdhakar.com/projects/lightbox2/">LightBox</a>
+                        </p>
+                        <p><a href="http://fancybox.net/">FancyBox</a>
+                        </p>
+                        <p><a href="http://christian-fei.com/simple-vertical-timeline-with-css/">Timeline.css</a>
+                        </p>
+                        <p><a href="http://luis-almeida.github.io/unveil/">unveil.js</a>
+                        </p>
+                     </div>
+                     <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                     </div>
+                  </div>
+                  <!-- /.modal-content -->
+               </div>
+               <!-- /.modal-dialog -->
+            </div>
+            <!-- /.modal -->
+            </p>
+         </div>
+      </div>
+      <!-- Bootstrap core JavaScript
+         ================================================== -->
+      <!-- Placed at the end of the document so the pages load faster -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+      <script src="js/lightbox-2.6.min.js"></script>
+      <script type="text/javascript" src="source/jquery.fancybox.js?v=2.1.5"></script>
+      <script type="text/javascript" src="js/jquery.unveil.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/data.js"></script>
+      <script type="text/javascript">
+         $(document).ready(function () {
+             $("li img").unveil(300);
+             $(".video").click(function () {
+                 $.fancybox({
+                     'padding': 0,
+                     'autoScale': false,
+                     'transitionIn': 'none',
+                     'transitionOut': 'none',
+                     'title': this.title,
+                     'width': 640,
+                     'height': 385,
+                     'href': this.href.replace(new RegExp("watch\\?v=", "i"), 'v/'),
+                     'type': 'swf',
+                     'swf': {
+                         'wmode': 'transparent',
+                         'allowfullscreen': 'true'
+                     }
+                 });
+         
+                 return false;
+             });
+             var offset = 220;
+             var duration = 500;
+             jQuery(window).scroll(function() {
+                 if (jQuery(this).scrollTop() > offset) {
+                     jQuery('.back-to-top').fadeIn(duration);
+                 } else {
+                     jQuery('.back-to-top').fadeOut(duration);
+                 }
+             });
+             
+             jQuery('.back-to-top').click(function(event) {
+                 event.preventDefault();
+                 jQuery('html, body').animate({scrollTop: 0}, duration);
+                 return false;
+             })
+         });
+      </script>
+      <script>
+         (function (i, s, o, g, r, a, m) {
+             i['GoogleAnalyticsObject'] = r;
+             i[r] = i[r] || function () {
+                 (i[r].q = i[r].q || []).push(arguments)
+             }, i[r].l = 1 * new Date();
+             a = s.createElement(o),
+             m = s.getElementsByTagName(o)[0];
+             a.async = 1;
+             a.src = g;
+             m.parentNode.insertBefore(a, m)
+         })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+         
+         ga('create', 'UA-15706253-12', '941am.com');
+         ga('send', 'pageview');
+      </script>
+   </body>
+</html>
