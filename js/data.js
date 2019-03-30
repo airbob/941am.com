@@ -3,7 +3,58 @@ var app = new Vue({
 
     el: '#app',
     data: {
-        lists: [{
+        lists: [
+        {
+            'year': '2019',
+            'events': [{
+                'id': '20190320',
+                'caption': {
+                    'title': 'Apple AirPods (2nd Gen)',
+                    'day': '20',
+                    'month': 'Mar'
+                },
+                'detail': {
+                    'head': {
+                        'image': 'airpods_2.png',
+                        'title': 'Apple AirPods (2nd Gen)'
+                    }
+                }
+            }, 
+            {
+                'id': '20190319',
+                'caption': {
+                    'title': 'iMac with Retina 5K display (27") (Early 2019)',
+                    'day': '19',
+                    'month': 'Mar',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'imac_5k_early_2019.jpg',
+                        'title': 'iMac with Retina 5K display (27") (Early 2019)'
+                    }
+                }
+            },
+            {
+                'id': '20190318',
+                'caption': {
+                    'title': 'iPad Air, iPad Mini (2019)',
+                    'day': '18',
+                    'month': 'Mar',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'ipad_air_2019.jpg',
+                        'title': 'iPad Air (2019)'
+                    },
+                    'rest': [{
+                        'image': 'ipad_mini_2019.jpg',
+                        'title': 'iPad Mini (2019)'
+                    }]
+                }
+            },
+            ]
+        }, //end of 2014
+        {
             'year': '2014',
             'events': [{
                 'id': '20140602',
@@ -43,8 +94,9 @@ var app = new Vue({
                         'title': 'MacBook Air (Mid 2014)'
                     }
                 }
-            }]//
-        }, {
+            }]
+        }, //end of 2014
+        {
             'year': '2013',
             'events': [
             {
