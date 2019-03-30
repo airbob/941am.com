@@ -53,7 +53,137 @@ var app = new Vue({
                 }
             },
             ]
-        }, //end of 2014
+        }, //end of 2019
+        {
+            'year': '2018',
+            'events': [{
+                'id': '20181107',
+                'caption': {
+                    'title': 'iPad Pro (3rd Gen)',
+                    'day': '07',
+                    'month': 'Nov'
+                },
+                'detail': {
+                    'head': {
+                        'image': 'ipad_pro_3.png',
+                        'title': 'iPad Pro (3rd Gen)'
+                    },
+                    'rest': [{
+                        'image': 'macbook_air_2018.jpg',
+                        'title': 'MacBook Air (13") (2018)'
+                    },{
+                        'image': 'macmini_late_2018.jpg',
+                        'title': 'Mac Mini (Late 2018)'
+                    }]
+                }
+            }, 
+            {
+                'id': '20181030',
+                'caption': {
+                    'title': 'Apple Pencil (2nd Gen)',
+                    'day': '30',
+                    'month': 'Oct',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_pencil_2.jpg',
+                        'title': 'Apple Pencil (2nd Gen)'
+                    }
+                }
+            },
+            {
+                'id': '20181026',
+                'caption': {
+                    'title': 'iPhone XR',
+                    'day': '26',
+                    'month': 'Oct',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'iphone_xr.png',
+                        'title': 'iPhone XR'
+                    }
+                }
+            },
+            {
+                'id': '20180921',
+                'caption': {
+                    'title': 'iPhone XS',
+                    'day': '21',
+                    'month': 'Sep',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'iphone_xs.png',
+                        'title': 'iPhone XS'
+                    },
+                    'rest': [{
+                        'image': 'iphone_xs_max.jpg',
+                        'title': 'iPhone XS Max'
+                    }, {
+                        'image': 'apple_watch_4.png',
+                        'title': 'Apple Watch Series 4'
+                    }]
+                }
+            },
+            {
+                'id': '20180712',
+                'caption': {
+                    'title': 'MacBook Pro with Touch Bar (4th gen)',
+                    'day': '12',
+                    'month': 'Jul',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'macbook_pro_touchbar_mid_2018.jpg',
+                        'title': 'MacBook Pro with Touch Bar (4th gen)'
+                    }
+                }
+            },
+            {
+                'id': '20180604',
+                'caption': {
+                    'title': 'WWDC 2018',
+                    'day': '04',
+                    'month': 'Jun',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'wwdc_2018.jpg',
+                        'title': 'WWDC 2018'
+                    }
+                }
+            },
+            {
+                'id': '20180327',
+                'caption': {
+                    'title': 'iPad (2018)',
+                    'day': '27',
+                    'month': 'Mar',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'ipad_2018.png',
+                        'title': 'iPad (2018)'
+                    }
+                }
+            },
+            {
+                'id': '20180209',
+                'caption': {
+                    'title': 'Home Pod',
+                    'day': '09',
+                    'month': 'Feb',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'homepod.jpg',
+                        'title': 'Home Pod'
+                    }
+                }
+            },
+            ]
+        }, //end of 2018
         {
             'year': '2014',
             'events': [{
