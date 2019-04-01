@@ -393,8 +393,169 @@ var app = new Vue({
             ]
         }, //end of 2016
         {
-            'year': '2014',
+            'year': '2015',
             'events': [{
+                'id': '20151111',
+                'caption': {
+                    'title': 'Apple Pencil',
+                    'day': '11',
+                    'month': 'Nov'
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_pencil.jpg',
+                        'title': 'Apple Pencil'
+                    },
+                    'rest': [{
+                        'image': 'ipad_pro_129.png',
+                        'title': 'iPad Pro (12.9")'
+                    }]
+                }
+            }, 
+            {
+                'id': '20151026',
+                'caption': {
+                    'title': 'Apple TV (4th generation)',
+                    'day': '26',
+                    'month': 'Oct',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_tv_4.jpg',
+                        'title': 'Apple TV (4th generation)'
+                    }
+                }
+            },
+            {
+                'id': '20151013',
+                'caption': {
+                    'title': 'Magic Mouse 2',
+                    'day': '13',
+                    'month': 'Oct',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'magic_mouse_2.jpg',
+                        'title': 'Magic Mouse 2'
+                    },
+                    'rest': [{
+                        'image': 'magic_trackpad_2.jpg',
+                        'title': 'Magic Trackpad 2'
+                    }]
+                }
+            },
+            {
+                'id': '20150925',
+                'caption': {
+                    'title': 'iPhone 6S',
+                    'day': '25',
+                    'month': 'Sep',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'iphone_6s.jpg',
+                        'title': 'iPhone 6S'
+                    },
+                    'rest': [{
+                        'image': 'iphone_6s_plus.jpg',
+                        'title': 'iPhone 6S Plus'
+                    }]
+                }
+            },
+            {
+                'id': '20150909',
+                'caption': {
+                    'title': 'iPad Mini 4',
+                    'day': '09',
+                    'month': 'Sep',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'ipad_mini_4.jpg',
+                        'title': 'iPad Mini 4 '
+                    }
+                }
+            },
+            {
+                'id': '20150715',
+                'caption': {
+                    'title': 'iPod Touch (6th gen)',
+                    'day': '15',
+                    'month': 'Jul',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'ipod_touch_6.jpg',
+                        'title': 'iPod Touch (6th gen)'
+                    }
+                }
+            },
+            {
+                'id': '20150424',
+                'caption': {
+                    'title': 'Apple Watch',
+                    'day': '24',
+                    'month': 'Apr',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_watch_1.jpg',
+                        'title': 'Apple Watch'
+                    }
+                }
+            },
+            {
+                'id': '20150309',
+                'caption': {
+                    'title': 'MacBook Air (Early 2015)',
+                    'day': '24',
+                    'month': 'Apr',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'mac_book_air_2015.jpg',
+                        'title': 'MacBook Air (Early 2015)'
+                    }
+                }
+            }
+            ]
+        }, //end of 2015
+        {
+            'year': '2014',
+            'events': [
+            {
+                'id': '20141022',
+                'caption': {
+                    'title': 'iPad Air 2',
+                    'day': '22',
+                    'month': 'Oct'
+                },
+                'detail': {
+                    'head': {
+                        'image': 'ipad_air_2.jpg',
+                        'title': 'iPad Air 2'
+                    }
+                }
+            },
+            {
+                'id': '20140919',
+                'caption': {
+                    'title': 'iPhone 6',
+                    'day': '19',
+                    'month': 'Sep'
+                },
+                'detail': {
+                    'head': {
+                        'image': 'iphone6.png',
+                        'title': 'iPhone 6'
+                    },
+                    'rest': [{
+                        'image': 'iphone_6_plus.jpg',
+                        'title': 'iPhone 6 Plus'
+                    }]
+                }
+            },
+            {
                 'id': '20140602',
                 'caption': {
                     'title': 'WWDC 2014',
@@ -419,7 +580,8 @@ var app = new Vue({
                         'title': 'Swift Language'
                     }]
                 }
-            }, {
+            },
+            {
                 'id': '20140429',
                 'caption': {
                     'title': 'MacBook Air (Mid 2014)',
