@@ -1842,6 +1842,65 @@ var app = new Vue({
             }
             ]
         }, //end of 2006
+        {
+            'year': '2005',
+            'events': [{
+                'id': '20051012',
+                'caption': {
+                    'title': 'iPod (5th gen)',
+                    'day': '12',
+                    'month': 'Oct'
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_ipod5th_main.jpg',
+                        'title': 'iPod (5th gen)'
+                    }
+                }
+            }, {
+                'id': '20050907',
+                'caption': {
+                    'title': 'iPod Nano (1st gen)',
+                    'day': '07',
+                    'month': 'Sep',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_ipodnano1st_main.jpg',
+                        'title': 'iPod Nano (1st gen)'
+                    }
+                }
+            }, 
+            {
+                'id': '20050223',
+                'caption': {
+                    'title': 'iPod Mini (2nd gen)',
+                    'day': '23',
+                    'month': 'Feb',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_ipodmini2nd_main.jpg',
+                        'title': 'iPod Mini (2nd gen)'
+                    }
+                }
+            },
+            {
+                'id': '20050111',
+                'caption': {
+                    'title': 'iPod Shuffle (1st gen)',
+                    'day': '11',
+                    'month': 'Jan',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_ipodsf1st_main.jpg',
+                        'title': 'iPod Shuffle (1st gen)'
+                    }
+                }
+            }
+            ]
+        }, //end of 2005
         ]
     } //end of data
 });
