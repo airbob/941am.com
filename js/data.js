@@ -1234,6 +1234,149 @@ var app = new Vue({
             },
             ]
         }, //end of 2011
+        {
+            'year': '2010',
+            'events': [{
+                'id': '20101020',
+                'caption': {
+                    'title': 'MacBook Air (Late 2010)',
+                    'day': '20',
+                    'month': 'Oct'
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_mba2010_main.jpg',
+                        'title': 'MacBook Air (Late 2010)'
+                    }
+                }
+            }, {
+                'id': '20100901',
+                'caption': {
+                    'title': 'iPod Touch (4th gen)',
+                    'day': '01',
+                    'month': 'Sep',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_it4th_main.jpg',
+                        'title': 'iPod Touch (4th gen)'
+                    }
+                }
+            }, 
+            {
+                'id': '20100809',
+                'caption': {
+                    'title': 'Mac Pro (Mid 2010)',
+                    'day': '09',
+                    'month': 'Aug',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_mp2010_main.jpg',
+                        'title': 'Mac Pro (Mid 2010)'
+                    }
+                }
+            },
+            {
+                'id': '20100727',
+                'caption': {
+                    'title': 'Magic Trackpad',
+                    'day': '27',
+                    'month': 'Jul',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_mt_main.jpg',
+                        'title': 'Magic Trackpad'
+                    }
+                }
+            },
+            {
+                'id': '20100624',
+                'caption': {
+                    'title': 'iPhone 4',
+                    'day': '24',
+                    'month': 'Jun'
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_iphone4_main.jpg',
+                        'title': 'iPhone 4'
+                    }
+                }
+            },
+            {
+                'id': '20100615',
+                'caption': {
+                    'title': 'Mac Mini (Mid 2010)',
+                    'day': '15',
+                    'month': 'Jun'
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_macmini2010_main.jpg',
+                        'title': 'Mac Mini (Mid 2010)'
+                    }
+                }
+            },
+            {
+                'id': '20100607',
+                'caption': {
+                    'title': 'WWDC 2010',
+                    'day': '07',
+                    'month': 'Jun'
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_wwdc2010_main.jpg',
+                        'title': 'WWDC 2010'
+                    }
+                }
+            },
+            {
+                'id': '20100430',
+                'caption': {
+                    'title': 'iPad (Wi-Fi + 3G)',
+                    'day': '30',
+                    'month': 'Apr'
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_ipadwifi3g_main.jpg',
+                        'title': 'iPad (Wi-Fi + 3G)'
+                    }
+                }
+            },
+            {
+                'id': '20100413',
+                'caption': {
+                    'title': 'MacBook Pro (Mid 2010)',
+                    'day': '13',
+                    'month': 'Apr'
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_mbpm2010_main.jpg',
+                        'title': 'MacBook Pro (Mid 2010)'
+                    }
+                }
+            },
+            {
+                'id': '20100403',
+                'caption': {
+                    'title': 'iPad (Wi-Fi)',
+                    'day': '03',
+                    'month': 'Apr'
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_ipad1st_main.jpg',
+                        'title': 'iPad (Wi-Fi)'
+                    }
+                }
+            },
+            ]
+        }, //end of 2010
         ]
     } //end of data
 });
