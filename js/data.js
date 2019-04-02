@@ -1525,6 +1525,121 @@ var app = new Vue({
             },
             ]
         }, //end of 2009
+        {
+            'year': '2008',
+            'events': [{
+                'id': '20081014',
+                'caption': {
+                    'title': 'MacBook Air (Late 2008)',
+                    'day': '14',
+                    'month': 'Oct'
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_mba_l2008_main.jpg',
+                        'title': 'MacBook Air (Late 2008)'
+                    }
+                }
+            }, {
+                'id': '20080909',
+                'caption': {
+                    'title': 'iPod Nano',
+                    'day': '09',
+                    'month': 'Sep',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_ipodnano4th_main.jpg',
+                        'title': 'iPod Nano'
+                    }
+                }
+            }, 
+            {
+                'id': '20080711',
+                'caption': {
+                    'title': 'iPhone 3G',
+                    'day': '11',
+                    'month': 'Jul',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_iphone3g_main.jpg',
+                        'title': 'iPhone 3G'
+                    }
+                }
+            },
+            {
+                'id': '20080229',
+                'caption': {
+                    'title': 'Time Capsule (1st gen)',
+                    'day': '29',
+                    'month': 'Sep',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_tc_main.jpg',
+                        'title': 'Time Capsule (1st gen)'
+                    }
+                }
+            },
+            {
+                'id': '20080226',
+                'caption': {
+                    'title': 'MacBook (Early 2008)',
+                    'day': '26',
+                    'month': 'Feb'
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_mb_e2008_main.jpg',
+                        'title': 'MacBook (Early 2008)'
+                    }
+                }
+            },
+            {
+                'id': '20080205',
+                'caption': {
+                    'title': 'iPhone (1st generation) (16 GB)',
+                    'day': '05',
+                    'month': 'Feb'
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_iphone1_16gb_main.jpg',
+                        'title': 'iPhone (1st generation) (16 GB)'
+                    }
+                }
+            },
+            {
+                'id': '20080115',
+                'caption': {
+                    'title': 'MacBook Air (Early 2008)',
+                    'day': '15',
+                    'month': 'Jan'
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_mba1st_main.jpg',
+                        'title': 'MacBook Air (Early 2008)'
+                    }
+                }
+            },
+            {
+                'id': '20090108',
+                'caption': {
+                    'title': 'Mac Pro (Early 2008)',
+                    'day': '08',
+                    'month': 'Jan'
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_mp_e2008_main.jpg',
+                        'title': 'Mac Pro (Early 2008)'
+                    }
+                }
+            }
+            ]
+        }, //end of 2008
         ]
     } //end of data
 });
