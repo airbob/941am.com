@@ -1377,6 +1377,154 @@ var app = new Vue({
             },
             ]
         }, //end of 2010
+        {
+            'year': '2009',
+            'events': [{
+                'id': '20091020',
+                'caption': {
+                    'title': 'iMac (Late 2009)',
+                    'day': '20',
+                    'month': 'Oct'
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_imacl2009_main.jpg',
+                        'title': 'iMac (Late 2009)'
+                    }
+                }
+            }, {
+                'id': '20090909',
+                'caption': {
+                    'title': 'iPod Nano (5th gen)',
+                    'day': '09',
+                    'month': 'Sep',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_ipodnano5h_main.jpg',
+                        'title': 'iPod Nano (5th gen)'
+                    }
+                }
+            }, 
+            {
+                'id': '20090828',
+                'caption': {
+                    'title': 'Mac OS X Snow Leopard',
+                    'day': '28',
+                    'month': 'Aug',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_snow_main.jpg',
+                        'title': 'Mac OS X Snow Leopard'
+                    }
+                }
+            },
+            {
+                'id': '20090619',
+                'caption': {
+                    'title': 'iPhone 3GS',
+                    'day': '19',
+                    'month': 'Jun',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_iphone3gs_main.jpg',
+                        'title': 'iPhone 3GS'
+                    }
+                }
+            },
+            {
+                'id': '20090608',
+                'caption': {
+                    'title': 'WWDC 2009',
+                    'day': '08',
+                    'month': 'Jun'
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_wwdc2009_main.jpg',
+                        'title': 'WWDC 2009'
+                    },
+                    'rest': [{
+                        'image': 'apple_mbpmid2009_main.jpg',
+                        'title': 'MacBook Pro (Mid 2009)'
+                    }
+                    ]
+                }
+            },
+            {
+                'id': '20090407',
+                'caption': {
+                    'title': 'Xserve (2009)',
+                    'day': '07',
+                    'month': 'Apr'
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_xserve2009_main.jpg',
+                        'title': 'Xserve (2009)'
+                    }
+                }
+            },
+            {
+                'id': '20090311',
+                'caption': {
+                    'title': 'iPod Shuffle (3rd gen)',
+                    'day': '11',
+                    'month': 'Mar'
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_ipodsf3rd_main.jpg',
+                        'title': 'iPod Shuffle (3rd gen)'
+                    }
+                }
+            },
+            {
+                'id': '20090303',
+                'caption': {
+                    'title': 'Mac Mini (Early 2009)',
+                    'day': '03',
+                    'month': 'Mar'
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_macminie2009_main.jpg',
+                        'title': 'Mac Mini (Early 2009)'
+                    }
+                }
+            },
+            {
+                'id': '20090129',
+                'caption': {
+                    'title': 'MacBook (Early 2009) (White)',
+                    'day': '29',
+                    'month': 'Jan'
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_mbe2009_main.jpg',
+                        'title': 'MacBook (Early 2009) (White)'
+                    }
+                }
+            },
+            {
+                'id': '20090106',
+                'caption': {
+                    'title': 'iWork 09',
+                    'day': '06',
+                    'month': 'Jan'
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_iwork09_main.jpg',
+                        'title': 'iWork 09'
+                    }
+                }
+            },
+            ]
+        }, //end of 2009
         ]
     } //end of data
 });
