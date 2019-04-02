@@ -1713,6 +1713,135 @@ var app = new Vue({
             }
             ]
         }, //end of 2007
+        {
+            'year': '2006',
+            'events': [{
+                'id': '20060925',
+                'caption': {
+                    'title': 'iPod Nano (2nd gen)',
+                    'day': '25',
+                    'month': 'Sep'
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_ipodnano2nd_main.jpg',
+                        'title': 'iPod Nano (2nd gen)'
+                    }
+                }
+            }, {
+                'id': '20060912',
+                'caption': {
+                    'title': 'iPod Shuffle (2nd gen)',
+                    'day': '05',
+                    'month': 'Sep',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_ipodsf2nd_main.jpg',
+                        'title': 'iPod Shuffle (2nd gen)'
+                    }
+                }
+            }, 
+            {
+                'id': '20060906',
+                'caption': {
+                    'title': 'iMac (Mid 2006)',
+                    'day': '06',
+                    'month': 'Sep',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_imaclate2006_main.jpg',
+                        'title': 'iMac (Mid 2006)'
+                    }
+                }
+            },
+            {
+                'id': '20060807',
+                'caption': {
+                    'title': 'Mac Pro',
+                    'day': '07',
+                    'month': 'Aug',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_mp1st_main.jpg',
+                        'title': 'Mac Pro'
+                    }
+                }
+            },
+            {
+                'id': '20060713',
+                'caption': {
+                    'title': 'Nike + iPod',
+                    'day': '13',
+                    'month': 'Jul'
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_ipodnike_main.jpg',
+                        'title': 'Nike + iPod'
+                    }
+                }
+            },
+            {
+                'id': '20060516',
+                'caption': {
+                    'title': 'Mac Book',
+                    'day': '16',
+                    'month': 'May'
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_mb1st_main.jpg',
+                        'title': 'Mac Book'
+                    }
+                }
+            },
+            {
+                'id': '20060424',
+                'caption': {
+                    'title': 'MacBook Pro (17")',
+                    'day': '24',
+                    'month': 'Apr'
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_mbp17_2006_main.jpg',
+                        'title': 'MacBook Pro (17")'
+                    }
+                }
+            },
+            {
+                'id': '20060228',
+                'caption': {
+                    'title': 'iPod HIFI',
+                    'day': '28',
+                    'month': 'Feb'
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_ipodhifi_main.jpg',
+                        'title': 'iPod HIFI'
+                    }
+                }
+            },
+            {
+                'id': '20060110',
+                'caption': {
+                    'title': 'Pod Radio Remote',
+                    'day': '10',
+                    'month': 'Jan'
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_ipodrr_main.jpg',
+                        'title': 'Pod Radio Remote'
+                    }
+                }
+            }
+            ]
+        }, //end of 2006
         ]
     } //end of data
 });
