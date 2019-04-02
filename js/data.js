@@ -1640,6 +1640,79 @@ var app = new Vue({
             }
             ]
         }, //end of 2008
+        {
+            'year': '2007',
+            'events': [{
+                'id': '20071027',
+                'caption': {
+                    'title': 'Mac OS X Leopard (10.5)',
+                    'day': '27',
+                    'month': 'Oct'
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_leopard_main.jpg',
+                        'title': 'Mac OS X Leopard (10.5)'
+                    }
+                }
+            }, {
+                'id': '20070905',
+                'caption': {
+                    'title': 'iPod Touch (1st gen)',
+                    'day': '05',
+                    'month': 'Sep',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_ipodtouch1st_main.jpg',
+                        'title': 'iPod Touch (1st gen)'
+                    }
+                }
+            }, 
+            {
+                'id': '20070807',
+                'caption': {
+                    'title': 'Apple Mighty Mouse',
+                    'day': '07',
+                    'month': 'Aug',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_mtmouse_main.jpg',
+                        'title': 'Apple Mighty Mouse'
+                    }
+                }
+            },
+            {
+                'id': '20070629',
+                'caption': {
+                    'title': 'iPhone (1st gen)',
+                    'day': '29',
+                    'month': 'Jun',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_iphone1_main.jpg',
+                        'title': 'iPhone (1st gen, 4GB/8GB)'
+                    }
+                }
+            },
+            {
+                'id': '20070321',
+                'caption': {
+                    'title': 'Apple TV (1st gen)',
+                    'day': '21',
+                    'month': 'Mar'
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_tv1st_main.jpg',
+                        'title': 'Apple TV (1st gen)'
+                    }
+                }
+            }
+            ]
+        }, //end of 2007
         ]
     } //end of data
 });
