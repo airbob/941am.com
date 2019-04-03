@@ -1974,6 +1974,65 @@ var app = new Vue({
             }
             ]
         }, //end of 2004
+        {
+            'year': '2003',
+            'events': [{
+                'id': '20031022',
+                'caption': {
+                    'title': 'iBook G4',
+                    'day': '22',
+                    'month': 'Oct'
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_ibookg4_main.jpg',
+                        'title': 'iBook G4'
+                    }
+                }
+            }, {
+                'id': '20030623',
+                'caption': {
+                    'title': 'Power Macintosh G5',
+                    'day': '23',
+                    'month': 'Jun',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_macg5_main.jpg',
+                        'title': 'Power Macintosh G5'
+                    }
+                }
+            }, 
+            {
+                'id': '20030428',
+                'caption': {
+                    'title': 'iPod (3rd gen)',
+                    'day': '28',
+                    'month': 'Apr',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_ipod3rd_main.jpg',
+                        'title': 'iPod (3rd gen)'
+                    }
+                }
+            },
+            {
+                'id': '20030107',
+                'caption': {
+                    'title': 'iMac PowerBook G4 Aluminum',
+                    'day': '07',
+                    'month': 'Jan',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_pbg4al_main.jpg',
+                        'title': 'iMac PowerBook G4 Aluminum'
+                    }
+                }
+            }
+            ]
+        }, //end of 2003
         ]
     } //end of data
 });
