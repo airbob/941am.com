@@ -2033,6 +2033,65 @@ var app = new Vue({
             }
             ]
         }, //end of 2003
+        {
+            'year': '2002',
+            'events': [{
+                'id': '20020617',
+                'caption': {
+                    'title': 'iMac G4 17" & iPod (2nd gen)',
+                    'day': '17',
+                    'month': 'Jun'
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_imacg417inch_main.jpg',
+                        'title': 'iMac G4 17" & iPod (2nd gen)'
+                    }
+                }
+            }, {
+                'id': '20020514',
+                'caption': {
+                    'title': 'Xserve',
+                    'day': '14',
+                    'month': 'May',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_xserve_main.jpg',
+                        'title': 'Xserve'
+                    }
+                }
+            }, 
+            {
+                'id': '20020429',
+                'caption': {
+                    'title': 'eMac',
+                    'day': '29',
+                    'month': 'Apr',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_emac_main.jpg',
+                        'title': 'eMac'
+                    }
+                }
+            },
+            {
+                'id': '20020107',
+                'caption': {
+                    'title': 'iMac G4 15"',
+                    'day': '07',
+                    'month': 'Jan',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_imacg4_main.jpg',
+                        'title': 'iMac G4 15"'
+                    }
+                }
+            }
+            ]
+        }, //end of 2002
         ]
     } //end of data
 });
