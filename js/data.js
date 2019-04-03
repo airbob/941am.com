@@ -3010,6 +3010,112 @@ var app = new Vue({
             }
             ]
         }, //end of 1989
+        {
+            'year': '1988',
+            'events': [{
+                'id': '19880919',
+                'caption': {
+                    'title': 'Macintosh IIx',
+                    'day': '19',
+                    'month': 'Sep'
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_mac_IIx_main.jpg',
+                        'title': 'Macintosh IIx'
+                    }
+                }
+            }, 
+            {
+                'id': '19880901',
+                'caption': {
+                    'title': 'Apple IIc Plus',
+                    'day': '01',
+                    'month': 'Aug',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_2c_plus_main.jpg',
+                        'title': 'Apple IIc Plus'
+                    }
+                }
+            },
+            {
+                'id': '19880801',
+                'caption': {
+                    'title': 'Apple Scanner',
+                    'day': '01',
+                    'month': 'Aug',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_scanner_main.jpg',
+                        'title': 'Apple Scanner'
+                    }
+                }
+            },
+            {
+                'id': '19880301',
+                'caption': {
+                    'title': 'Apple CD SC',
+                    'day': '01',
+                    'month': 'Mar',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_cdsc_main.jpg',
+                        'title': 'Apple CD SC'
+                    }
+                }
+            },
+            {
+                'id': '19880101',
+                'caption': {
+                    'title': 'Apple Laser Writer family',
+                    'day': '01',
+                    'month': 'Jan',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_laserwriter2_main.jpg',
+                        'title': 'Apple Laser Writer family'
+                    }
+                }
+            }
+            ]
+        }, //end of 1988
+        {
+            'year': '1987',
+            'events': [{
+                'id': '19870302',
+                'caption': {
+                    'title': 'Macintosh II & Macintosh SE',
+                    'day': '02',
+                    'month': 'Mar'
+                },
+                'detail': {
+                    'head': {
+                        'image': 'mac_mac2_main.jpg',
+                        'title': 'Macintosh II & Macintosh SE'
+                    }
+                }
+            }, 
+            {
+                'id': '19870101',
+                'caption': {
+                    'title': 'Apple IIe Platinum',
+                    'day': '01',
+                    'month': 'Jan',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_2e_platnium_main.jpg',
+                        'title': 'Apple IIe Platinum'
+                    }
+                }
+            }
+            ]
+        }, //end of 1987
         ]
     } //end of data
 });
