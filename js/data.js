@@ -2092,6 +2092,65 @@ var app = new Vue({
             }
             ]
         }, //end of 2002
+        {
+            'year': '2001',
+            'events': [{
+                'id': '20011022',
+                'caption': {
+                    'title': 'iPod(1st generation)',
+                    'day': '22',
+                    'month': 'Oct'
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_ipod1st_main.jpg',
+                        'title': 'iPod(1st generation)'
+                    }
+                }
+            }, {
+                'id': '20010718',
+                'caption': {
+                    'title': 'Power Macintosh G4 Quicksilver',
+                    'day': '18',
+                    'month': 'Jul',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_macg4_qs_main.jpg',
+                        'title': 'Power Macintosh G4 Quicksilver'
+                    }
+                }
+            }, 
+            {
+                'id': '20010501',
+                'caption': {
+                    'title': 'iBook (white)',
+                    'day': '01',
+                    'month': 'May',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_ibookw_main.jpg',
+                        'title': 'iBook (white)'
+                    }
+                }
+            },
+            {
+                'id': '20010101',
+                'caption': {
+                    'title': 'PowerBook G4 Titanium',
+                    'day': '07',
+                    'month': 'Jan',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_pbg4tt_main.jpg',
+                        'title': 'PowerBook G4 Titanium'
+                    }
+                }
+            }
+            ]
+        }, //end of 2001
         ]
     } //end of data
 });
