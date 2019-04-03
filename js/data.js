@@ -3428,6 +3428,24 @@ var app = new Vue({
             }
             ]
         }, //end of 1979
+        {
+            'year': '1978',
+            'events': [{
+                'id': '19780601',
+                'caption': {
+                    'title': 'Disk II',
+                    'day': '01',
+                    'month': 'Jun'
+                },
+                'detail': {
+                    'head': {
+                        'image': 'diskii_main.jpg',
+                        'title': 'Disk II'
+                    }
+                }
+            }
+            ]
+        }, //end of 1978
         ]
     } //end of data
 });
