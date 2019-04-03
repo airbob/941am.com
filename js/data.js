@@ -3310,6 +3310,38 @@ var app = new Vue({
             }
             ]
         }, //end of 1984
+        {
+            'year': '1983',
+            'events': [{
+                'id': '19831201',
+                'caption': {
+                    'title': 'Apple III Plus & Image Writer',
+                    'day': '01',
+                    'month': 'Dec'
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple3plus_main.jpg',
+                        'title': 'Apple III Plus & Image Writer'
+                    }
+                }
+            }, 
+            {
+                'id': '19830101',
+                'caption': {
+                    'title': 'Apple Lisa',
+                    'day': '01',
+                    'month': 'Jan',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'applelisa_main.jpg',
+                        'title': 'Apple Lisa'
+                    }
+                }
+            }
+            ]
+        }, //end of 1983
         ]
     } //end of data
 });
