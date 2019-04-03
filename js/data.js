@@ -2919,6 +2919,37 @@ var app = new Vue({
             }
             ]
         }, //end of 1991
+        {
+            'year': '1990',
+            'events': [{
+                'id': '19901015',
+                'caption': {
+                    'title': 'Macintosh Classic',
+                    'day': '15',
+                    'month': 'Oct'
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_mac_classic_main.jpg',
+                        'title': 'Macintosh Classic'
+                    }
+                }
+            }, {
+                'id': '19900319',
+                'caption': {
+                    'title': 'Macintosh IIfx',
+                    'day': '19',
+                    'month': 'Mar',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_mac2fx_main.jpg',
+                        'title': 'Macintosh IIfx'
+                    }
+                }
+            }
+            ]
+        }, //end of 1990
         ]
     } //end of data
 });
