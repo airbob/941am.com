@@ -3392,6 +3392,24 @@ var app = new Vue({
             },
             ]
         }, //end of 1981
+        {
+            'year': '1980',
+            'events': [{
+                'id': '19811201',
+                'caption': {
+                    'title': 'Apple III',
+                    'day': '01',
+                    'month': 'Sep'
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple3_main.jpg',
+                        'title': 'Apple III'
+                    }
+                }
+            }
+            ]
+        }, //end of 1980
         ]
     } //end of data
 });
