@@ -3464,6 +3464,24 @@ var app = new Vue({
             }
             ]
         }, //end of 1977
+        {
+            'year': '1976',
+            'events': [{
+                'id': '19760701',
+                'caption': {
+                    'title': 'Apple I',
+                    'day': '01',
+                    'month': 'Jul'
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple1_main.jpg',
+                        'title': 'Apple I'
+                    }
+                }
+            }
+            ]
+        }, //end of 1976
         ]
     } //end of data
 });
