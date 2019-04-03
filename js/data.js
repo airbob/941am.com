@@ -2613,6 +2613,93 @@ var app = new Vue({
             }
             ]
         }, //end of 1995
+        {
+            'year': '1994',
+            'events': [{
+                'id': '19941201',
+                'caption': {
+                    'title': 'Pippin',
+                    'day': '01',
+                    'month': 'Dec'
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_pippin_main.jpg',
+                        'title': 'Pippin'
+                    }
+                }
+            }, {
+                'id': '19940718',
+                'caption': {
+                    'title': 'PowerBook 150',
+                    'day': '18',
+                    'month': 'Jul',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_pb150_main.jpg',
+                        'title': 'PowerBook 150'
+                    }
+                }
+            }, 
+            {
+                'id': '19940516',
+                'caption': {
+                    'title': 'PowerBook 520/c',
+                    'day': '16',
+                    'month': 'May',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_pb520c_main.jpg',
+                        'title': 'PowerBook 520/c'
+                    }
+                }
+            },
+            {
+                'id': '19940426',
+                'caption': {
+                    'title': 'Workgroup Server 6150,8150,9150',
+                    'day': '26',
+                    'month': 'Apr',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_wg9150_main.jpg',
+                        'title': 'Workgroup Server 6150,8150,9150'
+                    }
+                }
+            },
+            {
+                'id': '19940314',
+                'caption': {
+                    'title': 'Power Macintosh 6100,7100,8100',
+                    'day': '14',
+                    'month': 'Mar',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_mac6100_main.jpg',
+                        'title': 'Power Macintosh 6100,7100,8100'
+                    }
+                }
+            },
+            {
+                'id': '19940202',
+                'caption': {
+                    'title': 'Apple QuickTake 100',
+                    'day': '02',
+                    'month': 'Feb',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_quicktake100_main.jpg',
+                        'title': 'Apple QuickTake 100'
+                    }
+                }
+            }
+            ]
+        }, //end of 1994
         ]
     } //end of data
 });
