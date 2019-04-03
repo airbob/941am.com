@@ -3410,6 +3410,24 @@ var app = new Vue({
             }
             ]
         }, //end of 1980
+        {
+            'year': '1979',
+            'events': [{
+                'id': '19790601',
+                'caption': {
+                    'title': 'Apple II plus',
+                    'day': '01',
+                    'month': 'Jun'
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple2plus_main.jpg',
+                        'title': 'Apple II plus'
+                    }
+                }
+            }
+            ]
+        }, //end of 1979
         ]
     } //end of data
 });
