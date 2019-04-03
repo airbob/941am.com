@@ -2700,6 +2700,121 @@ var app = new Vue({
             }
             ]
         }, //end of 1994
+        {
+            'year': '1993',
+            'events': [{
+                'id': '19931021',
+                'caption': {
+                    'title': 'Macintosh TV',
+                    'day': '21',
+                    'month': 'Oct'
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_mactv_main.jpg',
+                        'title': 'Macintosh TV'
+                    }
+                }
+            }, {
+                'id': '19931010',
+                'caption': {
+                    'title': 'color classic II',
+                    'day': '10',
+                    'month': 'Oct',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_colorclassicII_main.jpg',
+                        'title': 'color classic II'
+                    }
+                }
+            }, 
+            {
+                'id': '19930816',
+                'caption': {
+                    'title': 'Newton Message Pad',
+                    'day': '16',
+                    'month': 'Aug',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_newtonpad_main.jpg',
+                        'title': 'Newton Message Pad'
+                    }
+                }
+            },
+            {
+                'id': '19930729',
+                'caption': {
+                    'title': 'Quadra 840AV',
+                    'day': '29',
+                    'month': 'Jul',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_quadra840av_main.jpg',
+                        'title': 'Quadra 840AV'
+                    }
+                }
+            },
+            {
+                'id': '19930726',
+                'caption': {
+                    'title': 'Workgroup Server 60',
+                    'day': '26',
+                    'month': 'Jul',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_wg60_main.jpg',
+                        'title': 'Workgroup Server 60'
+                    }
+                }
+            },
+            {
+                'id': '19930607',
+                'caption': {
+                    'title': 'PowerBook 145b,180c',
+                    'day': '07',
+                    'month': 'Jun',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_pb145b_main.jpg',
+                        'title': 'PowerBook 145b,180c'
+                    }
+                }
+            },
+            {
+                'id': '19930322',
+                'caption': {
+                    'title': 'PowerCD',
+                    'day': '22',
+                    'month': 'Mar',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_powercd_main.jpg',
+                        'title': 'PowerCD'
+                    }
+                }
+            },
+            {
+                'id': '19930210',
+                'caption': {
+                    'title': 'Centris 610,650,800',
+                    'day': '10',
+                    'month': 'Feb',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_quadra800_main.jpg',
+                        'title': 'Centris 610,650,800'
+                    }
+                }
+            }
+            ]
+        }, //end of 1993
         ]
     } //end of data
 });
