@@ -2283,6 +2283,140 @@ var app = new Vue({
             }
             ]
         }, //end of 1999
+        {
+            'year': '1998',
+            'events': [{
+                'id': '19980815',
+                'caption': {
+                    'title': 'iMac G3',
+                    'day': '15',
+                    'month': 'Aug'
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_imacg3_main.jpg',
+                        'title': 'iMac G3'
+                    }
+                }
+            }, {
+                'id': '19980506',
+                'caption': {
+                    'title': 'PowerBook G3 series',
+                    'day': '06',
+                    'month': 'May',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_pbg3s_main.jpg',
+                        'title': 'PowerBook G3 series'
+                    }
+                }
+            }, 
+            {
+                'id': '19980131',
+                'caption': {
+                    'title': 'Power Macintosh G3 AIO',
+                    'day': '31',
+                    'month': 'Jan',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_macg3aio_main.jpg',
+                        'title': 'Power Macintosh G3 AIO'
+                    }
+                }
+            }
+            ]
+        }, //end of 1998
+        {
+            'year': '1997',
+            'events': [{
+                'id': '19971110',
+                'caption': {
+                    'title': 'PowerBook G3',
+                    'day': '10',
+                    'month': 'Nov'
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_pbg3_main.jpg',
+                        'title': 'PowerBook G3'
+                    }
+                }
+            }, {
+                'id': '19970508',
+                'caption': {
+                    'title': 'PowerBook 2400c',
+                    'day': '06',
+                    'month': 'May',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_pb2400c_main.jpg',
+                        'title': 'PowerBook 2400c'
+                    },
+                    'rest': [
+                    {
+                        'image': 'apple_mac7300.jpg',
+                        'title': '7300'
+                    },
+                    {
+                        'image': 'apple_mac8600.jpg',
+                        'title': '8600'
+                    },
+                    {
+                        'image': 'apple_mac9600.jpg',
+                        'title': '9600'
+                    },{
+                        'image': 'apple_pb3400.jpg',
+                        'title': '3400'
+                    }]
+                }
+            }, 
+            {
+                'id': '19970320',
+                'caption': {
+                    'title': 'Twentieth Anniversary Macintosh',
+                    'day': '20',
+                    'month': 'Mar',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_20thmac_main.jpg',
+                        'title': 'Twentieth Anniversary Macintosh'
+                    }
+                }
+            },
+            {
+                'id': '19970307',
+                'caption': {
+                    'title': 'eMate 300',
+                    'day': '07',
+                    'month': 'Mar',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_emate300_main.jpg',
+                        'title': 'eMate 300'
+                    }
+                }
+            },
+            {
+                'id': '19970217',
+                'caption': {
+                    'title': 'Power Macintosh 6500',
+                    'day': '17',
+                    'month': 'Feb',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_pb6500_main.jpg',
+                        'title': 'Power Macintosh 6500'
+                    }
+                }
+            }
+            ]
+        }, //end of 1997
         ]
     } //end of data
 });
