@@ -3222,6 +3222,94 @@ var app = new Vue({
             }
             ]
         }, //end of 1985
+        {
+            'year': '1984',
+            'events': [{
+                'id': '19841201',
+                'caption': {
+                    'title': 'AppleColor 100',
+                    'day': '01',
+                    'month': 'Dec'
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_color100_main.jpg',
+                        'title': 'AppleColor 100'
+                    }
+                }
+            }, 
+            {
+                'id': '19840601',
+                'caption': {
+                    'title': 'Apple Color Plotter',
+                    'day': '01',
+                    'month': 'Jun',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'applecolorploter_main.jpg',
+                        'title': 'Apple Color Plotter'
+                    }
+                }
+            },
+            {
+                'id': '19840501',
+                'caption': {
+                    'title': 'Apple DuoDisk 5.25',
+                    'day': '01',
+                    'month': 'May',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'appleduodisk_main.jpg',
+                        'title': 'Apple DuoDisk 5.25'
+                    }
+                }
+            },
+            {
+                'id': '19840401',
+                'caption': {
+                    'title': 'Apple IIc',
+                    'day': '01',
+                    'month': 'Apr',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_iic_main.jpg',
+                        'title': 'Apple IIc'
+                    }
+                }
+            },
+            {
+                'id': '19840124',
+                'caption': {
+                    'title': 'Macintosh(128K)',
+                    'day': '24',
+                    'month': 'Jan',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_macintosh_main.jpg',
+                        'title': 'Macintosh(128K)'
+                    }
+                }
+            },
+            {
+                'id': '19840101',
+                'caption': {
+                    'title': 'Apple Lisa 2',
+                    'day': '01',
+                    'month': 'Jan',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'applelisa2_main.jpg',
+                        'title': 'Apple Lisa 2'
+                    }
+                }
+            }
+            ]
+        }, //end of 1984
         ]
     } //end of data
 });
