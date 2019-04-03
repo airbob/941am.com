@@ -3446,6 +3446,24 @@ var app = new Vue({
             }
             ]
         }, //end of 1978
+        {
+            'year': '1977',
+            'events': [{
+                'id': '19770401',
+                'caption': {
+                    'title': 'Apple II',
+                    'day': '01',
+                    'month': 'Apr'
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple2_main.jpg',
+                        'title': 'Apple II'
+                    }
+                }
+            }
+            ]
+        }, //end of 1977
         ]
     } //end of data
 });
