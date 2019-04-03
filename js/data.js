@@ -2874,6 +2874,51 @@ var app = new Vue({
             }
             ]
         }, //end of 1992
+        {
+            'year': '1991',
+            'events': [{
+                'id': '19911021',
+                'caption': {
+                    'title': 'PowerBook 100&140&170, Quadra 700&900',
+                    'day': '21',
+                    'month': 'Oct'
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_pb100_main.jpg',
+                        'title': 'PowerBook 100&140&170, Quadra 700&900'
+                    }
+                }
+            }, {
+                'id': '19910301',
+                'caption': {
+                    'title': 'Apple IIe Card',
+                    'day': '01',
+                    'month': 'Mar',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_IIEcard_main.jpg',
+                        'title': 'Apple IIe Card'
+                    }
+                }
+            }, 
+            {
+                'id': '19910211',
+                'caption': {
+                    'title': 'Macintosh Portable (backlit screen)',
+                    'day': '11',
+                    'month': 'Feb',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_macportable_black_main.jpg',
+                        'title': 'Macintosh Portable (backlit screen)'
+                    }
+                }
+            }
+            ]
+        }, //end of 1991
         ]
     } //end of data
 });
