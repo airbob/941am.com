@@ -2518,6 +2518,101 @@ var app = new Vue({
             }
             ]
         }, //end of 1996
+        {
+            'year': '1995',
+            'events': [{
+                'id': '19950828',
+                'caption': {
+                    'title': 'PowerBook 190',
+                    'day': '28',
+                    'month': 'Aug'
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_pb190_main.jpg',
+                        'title': 'PowerBook 190'
+                    },
+                    'rest': [
+                    {
+                        'image': 'apple_pb5300cs.jpg',
+                        'title': '5300'
+                    },
+                    {
+                        'image': 'apple_pbduo2300c.jpg',
+                        'title': '2300c'
+                    }]
+                }
+            }, {
+                'id': '19950807',
+                'caption': {
+                    'title': 'Power Macintosh 7200/7500/8500',
+                    'day': '07',
+                    'month': 'Aug',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_mac7500_main.jpg',
+                        'title': 'Power Macintosh 7200/7500/8500'
+                    },
+                    'rest': [
+                    {
+                        'image': 'apple_mac8500.jpg',
+                        'title': '8500'
+                    }]
+                }
+            }, 
+            {
+                'id': '19950619',
+                'caption': {
+                    'title': 'Power Macintosh 9500',
+                    'day': '19',
+                    'month': 'Jun',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_mac9500_main.jpg',
+                        'title': 'Power Macintosh 9500'
+                    },
+                    'rest': [
+                    {
+                        'image': 'apple_mac7100.jpg',
+                        'title': '7100'
+                    },{
+                        'image': 'apple_mac8100.jpg',
+                        'title': '8100'
+                    }]
+                }
+            },
+            {
+                'id': '19950403',
+                'caption': {
+                    'title': 'Macintosh LC 580',
+                    'day': '03',
+                    'month': 'Apr',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_macLC580_main.jpg',
+                        'title': 'Macintosh LC 580'
+                    }
+                }
+            },
+            {
+                'id': '19950128',
+                'caption': {
+                    'title': 'Power Macintosh 6200 / 6300',
+                    'day': '28',
+                    'month': 'Jan',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_mac6300_main.jpg',
+                        'title': 'Power Macintosh 6200 / 6300'
+                    }
+                }
+            }
+            ]
+        }, //end of 1995
         ]
     } //end of data
 });
