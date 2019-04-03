@@ -3360,6 +3360,38 @@ var app = new Vue({
             }
             ]
         }, //end of 1982
+        {
+            'year': '1981',
+            'events': [{
+                'id': '19811201',
+                'caption': {
+                    'title': 'Apple III revised',
+                    'day': '01',
+                    'month': 'Oct'
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple3revised_main.jpg',
+                        'title': 'Apple III revised'
+                    }
+                }
+            },
+            {
+                'id': '19810901',
+                'caption': {
+                    'title': 'Apple ProFile',
+                    'day': '01',
+                    'month': 'Oct'
+                },
+                'detail': {
+                    'head': {
+                        'image': 'appleprofile_main.jpg',
+                        'title': 'Apple ProFile'
+                    }
+                }
+            },
+            ]
+        }, //end of 1981
         ]
     } //end of data
 });
