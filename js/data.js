@@ -2196,6 +2196,93 @@ var app = new Vue({
             }
             ]
         }, //end of 2000
+        {
+            'year': '1999',
+            'events': [{
+                'id': '19991013',
+                'caption': {
+                    'title': 'Power Macintosh G4 Graphite',
+                    'day': '13',
+                    'month': 'Oct'
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_macg4_gra_main.jpg',
+                        'title': 'Power Macintosh G4 Graphite'
+                    }
+                }
+            }, {
+                'id': '19991005',
+                'caption': {
+                    'title': 'iMac (slot loading)',
+                    'day': '05',
+                    'month': 'Oct',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_imac_main.jpg',
+                        'title': 'iMac (slot loading)'
+                    }
+                }
+            }, 
+            {
+                'id': '19990901',
+                'caption': {
+                    'title': 'Cinema Display (22")',
+                    'day': '01',
+                    'month': 'Sep',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_cdisplay_main.jpg',
+                        'title': 'Cinema Display (22")'
+                    }
+                }
+            },
+            {
+                'id': '19990831',
+                'caption': {
+                    'title': 'Macintosh Server G4',
+                    'day': '31',
+                    'month': 'Aug',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_msg4_main.jpg',
+                        'title': 'Macintosh Server G4'
+                    }
+                }
+            },
+            {
+                'id': '19990721',
+                'caption': {
+                    'title': 'iBOOK',
+                    'day': '21',
+                    'month': 'Jul',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_ibook_main.jpg',
+                        'title': 'iBOOK'
+                    }
+                }
+            },
+            {
+                'id': '19990105',
+                'caption': {
+                    'title': 'Power Macintosh G3 (Blue & White)',
+                    'day': '05',
+                    'month': 'Jan',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_macg3blue_main.jpg',
+                        'title': 'Power Macintosh G3 (Blue & White)'
+                    }
+                }
+            }
+            ]
+        }, //end of 1999
         ]
     } //end of data
 });
