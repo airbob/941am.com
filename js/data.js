@@ -3342,6 +3342,24 @@ var app = new Vue({
             }
             ]
         }, //end of 1983
+        {
+            'year': '1982',
+            'events': [{
+                'id': '19821001',
+                'caption': {
+                    'title': 'Apple DotMatrix printer & letter quality printer',
+                    'day': '01',
+                    'month': 'Oct'
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_dotmatrix_letter_main.jpg',
+                        'title': 'Apple DotMatrix printer & letter quality printer'
+                    }
+                }
+            }
+            ]
+        }, //end of 1982
         ]
     } //end of data
 });
