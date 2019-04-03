@@ -2417,6 +2417,107 @@ var app = new Vue({
             }
             ]
         }, //end of 1997
+        {
+            'year': '1996',
+            'events': [{
+                'id': '19961120',
+                'caption': {
+                    'title': 'PowerBook 1400',
+                    'day': '20',
+                    'month': 'Nov'
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_pb1400_main.jpg',
+                        'title': 'PowerBook 1400'
+                    }
+                }
+            }, {
+                'id': '19961115',
+                'caption': {
+                    'title': 'Power Macintosh 4400',
+                    'day': '15',
+                    'month': 'Nov',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_mac4400_main.jpg',
+                        'title': 'Power Macintosh 4400'
+                    }
+                }
+            }, 
+            {
+                'id': '19961023',
+                'caption': {
+                    'title': 'Performa 6400',
+                    'day': '23',
+                    'month': 'Oct',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_pf6400_main.jpg',
+                        'title': 'Performa 6400'
+                    }
+                }
+            },
+            {
+                'id': '19961016',
+                'caption': {
+                    'title': 'Apple Network Server 700/200',
+                    'day': '07',
+                    'month': 'Mar',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_ns700_main.jpg',
+                        'title': 'Apple Network Server 700/200'
+                    }
+                }
+            },
+            {
+                'id': '19960401',
+                'caption': {
+                    'title': 'Power Macintosh 7600',
+                    'day': '01',
+                    'month': 'Apr',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_mac7600_main.jpg',
+                        'title': 'Power Macintosh 7600'
+                    }
+                }
+            },
+            {
+                'id': '19960226',
+                'caption': {
+                    'title': 'Workgroup Server 7250,8550',
+                    'day': '26',
+                    'month': 'Feb',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_mac7250_main.jpg',
+                        'title': 'Workgroup Server 7250,8550'
+                    }
+                }
+            },
+            {
+                'id': '19960215',
+                'caption': {
+                    'title': 'Apple Network Server 500',
+                    'day': '15',
+                    'month': 'Feb',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_ns500_main.jpg',
+                        'title': 'Apple Network Server 500'
+                    }
+                }
+            }
+            ]
+        }, //end of 1996
         ]
     } //end of data
 });
