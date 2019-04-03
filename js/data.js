@@ -2815,6 +2815,65 @@ var app = new Vue({
             }
             ]
         }, //end of 1993
+        {
+            'year': '1992',
+            'events': [{
+                'id': '19931019',
+                'caption': {
+                    'title': 'PowerBook 160,180,duo210,duo230',
+                    'day': '19',
+                    'month': 'Oct'
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_pbduo210_main.jpg',
+                        'title': 'PowerBook 160,180,duo210,duo230'
+                    }
+                }
+            }, {
+                'id': '19920803',
+                'caption': {
+                    'title': 'PowerBook 145',
+                    'day': '03',
+                    'month': 'Aug',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_pb145_main.jpg',
+                        'title': 'PowerBook 145'
+                    }
+                }
+            }, 
+            {
+                'id': '19920518',
+                'caption': {
+                    'title': 'Quadra 950',
+                    'day': '18',
+                    'month': 'May',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_quadra950_main.jpg',
+                        'title': 'Quadra 950'
+                    }
+                }
+            },
+            {
+                'id': '19920323',
+                'caption': {
+                    'title': 'Macintosh LC II',
+                    'day': '23',
+                    'month': 'Mar',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_mac_LCII_main.jpg',
+                        'title': 'Macintosh LC II'
+                    }
+                }
+            }
+            ]
+        }, //end of 1992
         ]
     } //end of data
 });
