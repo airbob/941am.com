@@ -2950,6 +2950,66 @@ var app = new Vue({
             }
             ]
         }, //end of 1990
+        {
+            'year': '1989',
+            'events': [{
+                'id': '19890920',
+                'caption': {
+                    'title': 'Macintosh IIci',
+                    'day': '15',
+                    'month': 'Oct'
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_mac2ci_main.jpg',
+                        'title': 'Macintosh IIci'
+                    }
+                }
+            }, 
+            {
+                'id': '19890801',
+                'caption': {
+                    'title': 'Macintosh SE FDHD',
+                    'day': '01',
+                    'month': 'Aug',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_macsehdsd_main.jpg',
+                        'title': 'Macintosh SE FDHD'
+                    }
+                }
+            },
+            {
+                'id': '19890701',
+                'caption': {
+                    'title': 'Modem 2400',
+                    'day': '01',
+                    'month': 'Jul',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_modem2400_main.jpg',
+                        'title': 'Modem 2400'
+                    }
+                }
+            },
+            {
+                'id': '19890119',
+                'caption': {
+                    'title': 'Macintosh SE/30',
+                    'day': '19',
+                    'month': 'Jan',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'mac_macse30_main.jpg',
+                        'title': 'Macintosh SE/30'
+                    }
+                }
+            }
+            ]
+        }, //end of 1989
         ]
     } //end of data
 });
