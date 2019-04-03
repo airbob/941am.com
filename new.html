@@ -4,9 +4,10 @@
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="description" content="apple product timeline">
-      <meta name="author" content="chenbo:air.chenbo@gmail.com">
-      <title>Apple Products Timeline</title>
+      <meta name="keywords" content="Apple History, Apple Product List, Apple Timeline"/>
+      <meta name="description" content="Apple's Product list from the very beginning in a beautify timeline">
+      <meta name="author" content="941am:support@941am.com">
+      <title>Apple's Products Timeline</title>
       <!-- Bootstrap core CSS -->
       <link href="css/bootstrap.css" rel="stylesheet">
       <!-- Custom styles for this template -->
@@ -45,6 +46,11 @@
                   <li class="dropdown">
                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">By Year <b class="caret"></b></a>
                      <ul class="dropdown-menu">
+                        <li><a href="#2019">2019</a></li>
+                        <li><a href="#2018">2018</a></li>
+                        <li><a href="#2017">2017</a></li>
+                        <li><a href="#2016">2016</a></li>
+                        <li><a href="#2015">2015</a></li>
                         <li><a href="#2014">2014</a>
                         </li>
                         <li><a href="#2013">2013</a>
@@ -143,29 +149,28 @@
                <li class="head">9:41am</li>
                <li></li>
                <span v-for="list in lists">
-                <li class="year" v-bind:id="list.year"> {{ list.year }}</li>
-                <li class="event" v-for="event in list.events">
-                  <figure>
-                     <figcaption>
-                        <p class="publish-date"><span class="day">{{ event.caption.day }}</span><span class="month">{{ event.caption.month }}</span>
-                        </p>
-                        <h2 v-if="event.caption.isVideo">
-                          <a class="video"  v-bind:href="event.caption.link"><span class="glyphicon glyphicon-film"> </span></a>
-                          {{ event.caption.title }}
-                        <h2 v-else>{{ event.caption.title }}</h2>
-                     </figcaption>
-                  </figure>
-                  <div class="image-set">
-                     <a v-bind:href="'images/' + event.detail.head.image" v-bind:data-lightbox="event.id" v-bind:title="event.detail.head.image">
-                     <img src="img/loader.gif" v-bind:data-src="'images/' + event.detail.head.image"/>
-                     </a>
-                     <div style="display:none;" v-for="r in event.detail.rest">
-                        <a v-bind:href="'images/' + r.image" v-bind:data-lightbox="event.id" v-bind:title="r.title"></a>
+                  <li class="year" v-bind:id="list.year"> {{ list.year }}</li>
+                  <li class="event" v-for="event in list.events">
+                     <figure>
+                        <figcaption>
+                           <p class="publish-date"><span class="day">{{ event.caption.day }}</span><span class="month">{{ event.caption.month }}</span>
+                           </p>
+                           <h2 v-if="event.caption.isVideo">
+                           <a class="video"  v-bind:href="event.caption.link"><span class="glyphicon glyphicon-film"> </span></a>
+                           {{ event.caption.title }}
+                           <h2 v-else>{{ event.caption.title }}</h2>
+                        </figcaption>
+                     </figure>
+                     <div class="image-set">
+                        <a v-bind:href="'images/' + event.detail.head.image" v-bind:data-lightbox="event.id" v-bind:title="event.detail.head.image">
+                        <img src="img/loader.gif" v-bind:data-src="'images/' + event.detail.head.image"/>
+                        </a>
+                        <div style="display:none;" v-for="r in event.detail.rest">
+                           <a v-bind:href="'images/' + r.image" v-bind:data-lightbox="event.id" v-bind:title="r.title"></a>
+                        </div>
                      </div>
-                  </div>
-               </li>
+                  </li>
                </span>
-               
             </ul>
             <a href="#" class="back-to-top"><span class="glyphicon glyphicon-arrow-up"> </span></a>
          </section>
@@ -175,11 +180,11 @@
       <div id="footer">
          <div class="container">
             <p class="text-muted">
-               <span class="glyphicon glyphicon-copyright-mark"> </span> 2013
-               <a href="mailto:air.chenbo@gmail.com"><span class="glyphicon glyphicon-inbox"> </span> Email</a>
+               <span class="glyphicon glyphicon-copyright-mark"> </span> 2019 &nbsp&nbsp
+               <a href="mailto:support@941am.com"><span class="glyphicon glyphicon-inbox"> </span> Email</a>
                <!-- Button trigger modal -->
                <span class="btn" data-toggle="modal" data-target="#myModal">
-               <span class="glyphicon glyphicon-file"> </span> disclaim
+               <span class="glyphicon glyphicon-file"> </span>disclaim
                </span>
             <div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                <div class="modal-dialog">
@@ -189,7 +194,7 @@
                         <h4 class="modal-title" id="myModalLabel">Disclaimer</h4>
                      </div>
                      <div class="modal-body">
-                        <p>All the information in this site are from internet, if any material displayed violates your rights, <a href="mailto:air.chenbo@gmail.com">drop us a note </a>and it will be deleted accordingly.</p>
+                        <p>All the information in this site are from internet, if any material displayed violates your rights, <a href="mailto:support@941am.com">drop us a note </a>and it will be deleted accordingly.</p>
                         <p>This site is served as an archive for all Apple products, every udpate since Apple history begins</p>
                         <hr>
                         <h4>Thanks</h4>
