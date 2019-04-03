@@ -3116,6 +3116,52 @@ var app = new Vue({
             }
             ]
         }, //end of 1987
+        {
+            'year': '1986',
+            'events': [{
+                'id': '19860901',
+                'caption': {
+                    'title': 'Apple IIGS',
+                    'day': '01',
+                    'month': 'Sep'
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_2gs_main.jpg',
+                        'title': 'Apple IIGS'
+                    }
+                }
+            }, 
+            {
+                'id': '19860414',
+                'caption': {
+                    'title': 'Macintosh 512Ke',
+                    'day': '14',
+                    'month': 'Apr',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_512ke_main.jpg',
+                        'title': 'Macintosh 512Ke'
+                    }
+                }
+            },
+            {
+                'id': '19860116',
+                'caption': {
+                    'title': 'Macintosh Plus',
+                    'day': '16',
+                    'month': 'Jan',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_macIntosh_plus_main.jpg',
+                        'title': 'Macintosh Plus'
+                    }
+                }
+            }
+            ]
+        }, //end of 1986
         ]
     } //end of data
 });
