@@ -1901,6 +1901,79 @@ var app = new Vue({
             }
             ]
         }, //end of 2005
+        {
+            'year': '2004',
+            'events': [{
+                'id': '20040926',
+                'caption': {
+                    'title': 'iPod Photo',
+                    'day': '26',
+                    'month': 'Sep'
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_ipodphoto_main.jpg',
+                        'title': 'iPod Photo'
+                    }
+                }
+            }, {
+                'id': '20040831',
+                'caption': {
+                    'title': 'iMac G5',
+                    'day': '31',
+                    'month': 'Aug',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_imacg5_main.jpg',
+                        'title': 'iMac G5'
+                    }
+                }
+            }, 
+            {
+                'id': '20040719',
+                'caption': {
+                    'title': 'iPod (4th gen)',
+                    'day': '19',
+                    'month': 'Jul',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_ipod4th_main.jpg',
+                        'title': 'iPod (4th gen)'
+                    }
+                }
+            },
+            {
+                'id': '20040607',
+                'caption': {
+                    'title': 'AirPort Express (802.11g)',
+                    'day': '07',
+                    'month': 'Jun',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_apexpress1st_main.jpg',
+                        'title': 'AirPort Express (802.11g)'
+                    }
+                }
+            },
+            {
+                'id': '20040106',
+                'caption': {
+                    'title': 'iPod Mini',
+                    'day': '06',
+                    'month': 'Jan',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_ipodmini1st_main.jpg',
+                        'title': 'iPod Mini'
+                    }
+                }
+            }
+            ]
+        }, //end of 2004
         ]
     } //end of data
 });
