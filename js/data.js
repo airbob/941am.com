@@ -2151,6 +2151,51 @@ var app = new Vue({
             }
             ]
         }, //end of 2001
+        {
+            'year': '2000',
+            'events': [{
+                'id': '20000913',
+                'caption': {
+                    'title': 'iBook (FireWire)',
+                    'day': '13',
+                    'month': 'Sep'
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_ibookfw_main.jpg',
+                        'title': 'iBook (FireWire)'
+                    }
+                }
+            }, {
+                'id': '20000719',
+                'caption': {
+                    'title': 'Power Macintosh G4 Cube',
+                    'day': '19',
+                    'month': 'Jul',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_macg4cube_main.jpg',
+                        'title': 'Power Macintosh G4 Cube'
+                    }
+                }
+            }, 
+            {
+                'id': '20000216',
+                'caption': {
+                    'title': 'PowerBook ("Pismo")',
+                    'day': '16',
+                    'month': 'Feb',
+                },
+                'detail': {
+                    'head': {
+                        'image': 'apple_pbpismo_main.jpg',
+                        'title': 'PowerBook ("Pismo")'
+                    }
+                }
+            }
+            ]
+        }, //end of 2000
         ]
     } //end of data
 });
