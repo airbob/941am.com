@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: 941am.com
+Token: 942f1a3f36002a0057741b3f6287876cc4f2d64825ad8992bd41d8ab673f54cf
